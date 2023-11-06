@@ -4,6 +4,7 @@ Template for building a Google Cloud Function
 
 ## Requirements 
 
+* gcloud for the deployment
 * pyenv to manage virtual environments
 * python-dotenv to handle environment variables
 
