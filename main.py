@@ -6,8 +6,8 @@ load_dotenv()
 
 @functions_framework.http
 def run(request=None):
-    code = 'to run'
-    return code
+    code = 'goes here'
+    return "code complete"
 
 
 if __name__ == '__main__':
