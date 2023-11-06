@@ -1,0 +1,5 @@
+# Python requirements file
+# run 'pip freeze -> requirements.txt' to populate
+
+functions-framework==3.4.0
+python-dotenv==1.0.0
