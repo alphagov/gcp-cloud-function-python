@@ -1,5 +1,5 @@
 -include .env
-REPO := $(notdir $(shell pwd))
+REPO := $(notdir $(shell pwd)) | tr ' ' '_'
 
 deploy:
 	gcloud functions deploy $(REPO) \
